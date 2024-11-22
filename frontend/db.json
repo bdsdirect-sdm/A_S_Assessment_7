@@ -1,0 +1,635 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Bluetooth Headphones",
+      "image": "https://example.com/images/headphones.jpg",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 120,
+      "tags": [
+        "bluetooth",
+        "wireless",
+        "audio",
+        "headphones"
+      ],
+      "labels": [
+        "Best Seller",
+        "Limited Offer"
+      ],
+      "rating": 4.5,
+      "seller": "TechStore Inc.",
+      "description": "High-quality wireless Bluetooth headphones with noise cancellation and long battery life."
+    },
+    {
+      "id": "2",
+      "name": "Men's Cotton T-Shirt",
+      "image": "https://example.com/images/tshirt.jpg",
+      "price": 15.99,
+      "category": "Apparel",
+      "stock": 300,
+      "tags": [
+        "clothing",
+        "cotton",
+        "t-shirt",
+        "men"
+      ],
+      "labels": [
+        "New Arrival"
+      ],
+      "rating": 4.2,
+      "seller": "FashionHub",
+      "description": "Comfortable and breathable cotton t-shirt available in various sizes and colors."
+    },
+    {
+      "id": "3",
+      "name": "Stainless Steel Water Bottle",
+      "image": "https://example.com/images/waterbottle.jpg",
+      "price": 19.99,
+      "category": "Home & Kitchen",
+      "stock": 75,
+      "tags": [
+        "water bottle",
+        "stainless steel",
+        "eco-friendly"
+      ],
+      "labels": [
+        "Eco-Friendly",
+        "Top Rated"
+      ],
+      "rating": 4.8,
+      "seller": "EcoLife",
+      "description": "Durable and eco-friendly stainless steel water bottle with 1L capacity and leak-proof cap."
+    },
+    {
+      "id": "4",
+      "name": "Gaming Mouse",
+      "image": "https://example.com/images/gamingmouse.jpg",
+      "price": 39.99,
+      "category": "Electronics",
+      "stock": 60,
+      "tags": [
+        "gaming",
+        "mouse",
+        "RGB",
+        "wired"
+      ],
+      "labels": [
+        "Top Pick"
+      ],
+      "rating": 4.7,
+      "seller": "GamerZone",
+      "description": "Ergonomic gaming mouse with customizable RGB lighting and precision tracking."
+    },
+    {
+      "id": "5",
+      "name": "Yoga Mat",
+      "image": "https://example.com/images/yogamat.jpg",
+      "price": 25.99,
+      "category": "Fitness",
+      "stock": 200,
+      "tags": [
+        "yoga",
+        "fitness",
+        "mat",
+        "exercise"
+      ],
+      "labels": [
+        "Best Value"
+      ],
+      "rating": 4.6,
+      "seller": "FitnessPro",
+      "description": "Non-slip yoga mat with high durability and cushioning for your daily workouts."
+    },
+    {
+      "id": "6",
+      "name": "LED Desk Lamp",
+      "image": "https://example.com/images/desk-lamp.jpg",
+      "price": 34.99,
+      "category": "Home & Kitchen",
+      "stock": 100,
+      "tags": [
+        "LED",
+        "desk lamp",
+        "lighting"
+      ],
+      "labels": [
+        "Energy Efficient"
+      ],
+      "rating": 4.4,
+      "seller": "BrightLife",
+      "description": "Sleek and modern LED desk lamp with adjustable brightness and touch controls."
+    },
+    {
+      "id": "7",
+      "name": "Men's Running Shoes",
+      "image": "https://example.com/images/runningshoes.jpg",
+      "price": 49.99,
+      "category": "Footwear",
+      "stock": 150,
+      "tags": [
+        "shoes",
+        "running",
+        "sports",
+        "men"
+      ],
+      "labels": [
+        "Top Rated"
+      ],
+      "rating": 4.3,
+      "seller": "SportyFeet",
+      "description": "Lightweight and durable running shoes designed for maximum comfort and performance."
+    },
+    {
+      "id": "8",
+      "name": "Coffee Maker",
+      "image": "https://example.com/images/coffeemaker.jpg",
+      "price": 89.99,
+      "category": "Appliances",
+      "stock": 50,
+      "tags": [
+        "coffee",
+        "appliances",
+        "kitchen"
+      ],
+      "labels": [
+        "Best Seller"
+      ],
+      "rating": 4.6,
+      "seller": "HomeBrew",
+      "description": "Automatic coffee maker with programmable settings and a built-in grinder."
+    },
+    {
+      "id": "9",
+      "name": "4K Smart TV",
+      "image": "https://example.com/images/smarttv.jpg",
+      "price": 499.99,
+      "category": "Electronics",
+      "stock": 30,
+      "tags": [
+        "TV",
+        "4K",
+        "smart",
+        "electronics"
+      ],
+      "labels": [
+        "Limited Offer"
+      ],
+      "rating": 4.9,
+      "seller": "VisionTech",
+      "description": "55-inch 4K Ultra HD Smart TV with HDR support and streaming capabilities."
+    },
+    {
+      "id": "10",
+      "name": "Smart Watch",
+      "image": "https://example.com/images/smartwatch.jpg",
+      "price": 129.99,
+      "category": "Wearables",
+      "stock": 90,
+      "tags": [
+        "smartwatch",
+        "wearable",
+        "fitness"
+      ],
+      "labels": [
+        "Top Pick"
+      ],
+      "rating": 4.5,
+      "seller": "WearTech",
+      "description": "Smart watch with fitness tracking, heart rate monitoring, and customizable faces."
+    },
+    {
+      "id": "11",
+      "name": "Leather Wallet",
+      "image": "https://example.com/images/wallet.jpg",
+      "price": 29.99,
+      "category": "Accessories",
+      "stock": 80,
+      "tags": [
+        "wallet",
+        "leather",
+        "accessories"
+      ],
+      "labels": [
+        "New Arrival"
+      ],
+      "rating": 4.4,
+      "seller": "ClassicStyle",
+      "description": "Premium leather wallet with multiple compartments for cards and cash."
+    },
+    {
+      "id": "12",
+      "name": "Portable Power Bank",
+      "image": "https://example.com/images/powerbank.jpg",
+      "price": 24.99,
+      "category": "Electronics",
+      "stock": 200,
+      "tags": [
+        "power bank",
+        "portable",
+        "charging"
+      ],
+      "labels": [
+        "Best Value"
+      ],
+      "rating": 4.7,
+      "seller": "ChargePro",
+      "description": "High-capacity portable power bank compatible with smartphones and tablets."
+    },
+    {
+      "id": "13",
+      "name": "Kitchen Knife Set",
+      "image": "https://example.com/images/knifeset.jpg",
+      "price": 45.99,
+      "category": "Home & Kitchen",
+      "stock": 70,
+      "tags": [
+        "kitchen",
+        "knife set",
+        "cooking"
+      ],
+      "labels": [
+        "Top Pick"
+      ],
+      "rating": 4.8,
+      "seller": "ChefMaster",
+      "description": "Professional stainless steel knife set with ergonomic handles."
+    },
+    {
+      "id": "14",
+      "name": "Electric Kettle",
+      "image": "https://example.com/images/kettle.jpg",
+      "price": 19.99,
+      "category": "Appliances",
+      "stock": 180,
+      "tags": [
+        "kettle",
+        "electric",
+        "kitchen"
+      ],
+      "labels": [
+        "Top Rated"
+      ],
+      "rating": 4.5,
+      "seller": "QuickBrew",
+      "description": "Fast-boiling electric kettle with auto shut-off feature."
+    },
+    {
+      "id": "15",
+      "name": "Noise Cancelling Earbuds",
+      "image": "https://example.com/images/earbuds.jpg",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 95,
+      "tags": [
+        "earbuds",
+        "noise cancelling",
+        "audio"
+      ],
+      "labels": [
+        "Limited Offer"
+      ],
+      "rating": 4.7,
+      "seller": "AudioPro",
+      "description": "Compact and lightweight earbuds with active noise cancellation and crystal-clear audio."
+    },
+    {
+      "id": "16",
+      "name": "Adjustable Office Chair",
+      "image": "https://example.com/images/officechair.jpg",
+      "price": 119.99,
+      "category": "Furniture",
+      "stock": 40,
+      "tags": [
+        "office chair",
+        "furniture",
+        "ergonomic"
+      ],
+      "labels": [
+        "Top Pick"
+      ],
+      "rating": 4.6,
+      "seller": "ErgoComfort",
+      "description": "Ergonomic office chair with lumbar support and adjustable height."
+    },
+    {
+      "id": "17",
+      "name": "Stainless Steel Cookware Set",
+      "image": "https://example.com/images/cookwareset.jpg",
+      "price": 79.99,
+      "category": "Home & Kitchen",
+      "stock": 65,
+      "tags": [
+        "cookware",
+        "kitchen",
+        "stainless steel"
+      ],
+      "labels": [
+        "Best Seller"
+      ],
+      "rating": 4.8,
+      "seller": "HomeChef",
+      "description": "Durable stainless steel cookware set with non-stick interiors."
+    },
+    {
+      "id": "18",
+      "name": "Fitness Tracker",
+      "image": "https://example.com/images/fitnesstracker.jpg",
+      "price": 49.99,
+      "category": "Wearables",
+      "stock": 110,
+      "tags": [
+        "fitness tracker",
+        "wearables",
+        "health"
+      ],
+      "labels": [
+        "Top Pick"
+      ],
+      "rating": 4.5,
+      "seller": "HealthGear",
+      "description": "Fitness tracker with step counting, heart rate monitoring, and sleep tracking."
+    },
+    {
+      "id": "19",
+      "name": "Digital Alarm Clock",
+      "image": "https://example.com/images/alarmclock.jpg",
+      "price": 15.99,
+      "category": "Home & Kitchen",
+      "stock": 210,
+      "tags": [
+        "alarm clock",
+        "digital",
+        "bedroom"
+      ],
+      "labels": [
+        "Best Value"
+      ],
+      "rating": 4.3,
+      "seller": "TimeKeepers",
+      "description": "Compact digital alarm clock with large LED display and snooze function."
+    },
+    {
+      "id": "20",
+      "name": "Wireless Keyboard and Mouse Combo",
+      "image": "https://example.com/images/keyboardmouse.jpg",
+      "price": 39.99,
+      "category": "Electronics",
+      "stock": 80,
+      "tags": [
+        "keyboard",
+        "mouse",
+        "wireless",
+        "combo"
+      ],
+      "labels": [
+        "Best Seller"
+      ],
+      "rating": 4.6,
+      "seller": "TechGear",
+      "description": "Wireless keyboard and mouse combo with ergonomic design and long battery life."
+    },
+    {
+      "id": "21",
+      "name": "Digital Drawing Tablet",
+      "image": "https://example.com/images/drawingtablet.jpg",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 50,
+      "tags": [
+        "drawing",
+        "tablet",
+        "digital",
+        "design"
+      ],
+      "labels": [
+        "Top Pick"
+      ],
+      "rating": 4.7,
+      "seller": "CreativeTools",
+      "description": "Compact digital drawing tablet with a pressure-sensitive stylus for artists and designers."
+    },
+    {
+      "id": "22",
+      "name": "Kids' Educational Toy Set",
+      "image": "https://example.com/images/educationaltoys.jpg",
+      "price": 29.99,
+      "category": "Toys",
+      "stock": 120,
+      "tags": [
+        "toys",
+        "education",
+        "kids"
+      ],
+      "labels": [
+        "Best Value"
+      ],
+      "rating": 4.8,
+      "seller": "PlayLearn",
+      "description": "Interactive educational toy set for kids, encouraging learning and creativity."
+    },
+    {
+      "id": "23",
+      "name": "Wireless Charging Pad",
+      "image": "https://example.com/images/chargingpad.jpg",
+      "price": 19.99,
+      "category": "Electronics",
+      "stock": 150,
+      "tags": [
+        "wireless charging",
+        "electronics",
+        "portable"
+      ],
+      "labels": [
+        "New Arrival"
+      ],
+      "rating": 4.4,
+      "seller": "QuickCharge",
+      "description": "Slim and efficient wireless charging pad compatible with most smartphones."
+    },
+    {
+      "id": "24",
+      "name": "Women’s Fitness Leggings",
+      "image": "https://example.com/images/fitnessleggings.jpg",
+      "price": 25.99,
+      "category": "Apparel",
+      "stock": 200,
+      "tags": [
+        "leggings",
+        "fitness",
+        "women"
+      ],
+      "labels": [
+        "Best Seller"
+      ],
+      "rating": 4.5,
+      "seller": "FitWear",
+      "description": "Comfortable and stretchable fitness leggings, perfect for yoga and workouts."
+    },
+    {
+      "id": "25",
+      "name": "Luxury Scented Candle",
+      "image": "https://example.com/images/scentedcandle.jpg",
+      "price": 14.99,
+      "category": "Home Decor",
+      "stock": 300,
+      "tags": [
+        "scented candle",
+        "home decor",
+        "aromatherapy"
+      ],
+      "labels": [
+        "Top Rated"
+      ],
+      "rating": 4.6,
+      "seller": "SereneHome",
+      "description": "Luxury scented candle made from natural soy wax with a calming lavender aroma."
+    },
+    {
+      "id": "26",
+      "name": "Portable Bluetooth Speaker",
+      "image": "https://example.com/images/bluetoothspeaker.jpg",
+      "price": 49.99,
+      "category": "Electronics",
+      "stock": 90,
+      "tags": [
+        "bluetooth speaker",
+        "portable",
+        "audio"
+      ],
+      "labels": [
+        "Best Value"
+      ],
+      "rating": 4.7,
+      "seller": "SoundBlast",
+      "description": "Compact and portable Bluetooth speaker with rich sound and long battery life."
+    },
+    {
+      "id": "27",
+      "name": "Travel Backpack",
+      "image": "https://example.com/images/travelbackpack.jpg",
+      "price": 59.99,
+      "category": "Accessories",
+      "stock": 130,
+      "tags": [
+        "backpack",
+        "travel",
+        "luggage"
+      ],
+      "labels": [
+        "Top Pick"
+      ],
+      "rating": 4.8,
+      "seller": "AdventureGear",
+      "description": "Durable travel backpack with multiple compartments and ergonomic design."
+    },
+    {
+      "id": "28",
+      "name": "Smartphone Gimbal Stabilizer",
+      "image": "https://example.com/images/gimbal.jpg",
+      "price": 119.99,
+      "category": "Electronics",
+      "stock": 40,
+      "tags": [
+        "gimbal",
+        "stabilizer",
+        "smartphone"
+      ],
+      "labels": [
+        "Top Rated"
+      ],
+      "rating": 4.9,
+      "seller": "PhotoPro",
+      "description": "3-axis smartphone gimbal stabilizer for capturing smooth and professional videos."
+    },
+    {
+      "id": "29",
+      "name": "Ergonomic Laptop Stand",
+      "image": "https://example.com/images/laptopstand.jpg",
+      "price": 39.99,
+      "category": "Accessories",
+      "stock": 160,
+      "tags": [
+        "laptop stand",
+        "ergonomic",
+        "office"
+      ],
+      "labels": [
+        "Best Seller"
+      ],
+      "rating": 4.6,
+      "seller": "OfficePro",
+      "description": "Adjustable ergonomic laptop stand for comfortable typing and better posture."
+    },
+    {
+      "id": "30",
+      "name": "Premium Bed Sheet Set",
+      "image": "https://example.com/images/bedsheets.jpg",
+      "price": 89.99,
+      "category": "Home Decor",
+      "stock": 75,
+      "tags": [
+        "bed sheets",
+        "luxury",
+        "home decor"
+      ],
+      "labels": [
+        "Luxury"
+      ],
+      "rating": 4.7,
+      "seller": "CozyHome",
+      "description": "Soft and luxurious premium bed sheet set with a 1000 thread count."
+    },
+    {
+      "id": "31",
+      "name": "Electric Hair Trimmer",
+      "image": "https://example.com/images/hairtrimmer.jpg",
+      "price": 24.99,
+      "category": "Personal Care",
+      "stock": 190,
+      "tags": [
+        "hair trimmer",
+        "personal care",
+        "grooming"
+      ],
+      "labels": [
+        "Top Pick"
+      ],
+      "rating": 4.5,
+      "seller": "GroomMaster",
+      "description": "Rechargeable electric hair trimmer with adjustable settings for precision grooming."
+    }
+  ],
+  "cart": [
+    {
+      "quantity": 10,
+      "productId": "1",
+      "id": "3c06"
+    },
+    {
+      "quantity": 3,
+      "productId": "3",
+      "id": "2472"
+    },
+    {
+      "quantity": 4,
+      "productId": "4",
+      "id": "597f"
+    },
+    {
+      "quantity": 2,
+      "productId": "2",
+      "id": "c899"
+    },
+    {
+      "quantity": 5,
+      "productId": "5",
+      "id": "ffe5"
+    },
+    {
+      "id": "0d92",
+      "productId": "6",
+      "quantity": 1
+    }
+  ]
+}
